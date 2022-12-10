@@ -76,7 +76,7 @@ background-color:darkblue;
 	h1, h2 {
 		color:   #ff9602;
 		font-family: 'Pelagy';
-		font-size: 4vw;-webkit-text-stroke:1px orange;
+		  -webkit-text-stroke:1px orange;
 color:rgba(0, 0, 0, 0); ;
 	}
 	 h4, h5, h6 {
@@ -86,7 +86,7 @@ color:rgba(0, 0, 0, 0); ;
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 50px; line-height:50px;text-transform:uppercase; }
-	h2 { font-size: 42px; line-height:42px;text-transform:uppercase;}
+	h2 { font-size: 37px; line-height:42px;text-transform:uppercase;}
 	h3 { font-size: 1vw; line-height: 38px;text-transform:uppercase;}
 	h4 { font-size: 34px; line-height: 34px;text-transform:uppercase;}
 	h5 { font-size: 28px; line-height: 28px;text-transform:uppercase;}
@@ -197,8 +197,8 @@ color:rgba(0, 0, 0, 0); ;
 
 @media only screen and (max-width: 1050px) {
   .top_img{height:96vw;}
-}@media only screen and (min-width: 1050px) {
-  body::before {
+}@media only screen and (max-width: 768px) {
+ .header-big-text h2 {font-size: 1.7rem;
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'desktop';
   }

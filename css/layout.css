@@ -1750,7 +1750,7 @@ body.body--hidden {
 body.body--hidden .cd-header{
 	opacity: 0;
 }
-.cd-header{
+.cd-header{background-image:url(../images/11-копия.png);
 	-webkit-transition: opacity 300ms ease-in-out;
 	transition: opacity 300ms ease-in-out;
 }
@@ -2432,7 +2432,7 @@ figure.vimeo a img, figure.youtube a img {
 	position:relative;
 	margin:0 auto;
 	text-align:center;
-	background:orange;
+	background:#ff9602;   
 }
 
 
