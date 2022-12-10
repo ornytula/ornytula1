@@ -37,7 +37,7 @@ opacity: 1;
 
 
 .block4{ 
-    position:fixed;
+    position:absolute;
      width: 100%;
     left: 0;
     top: 0;
